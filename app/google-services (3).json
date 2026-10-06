@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "277747216937",
+    "project_id": "smart-hospital-queue-ec243",
+    "storage_bucket": "smart-hospital-queue-ec243.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277747216937:android:6dddc03ebd0a5779bf6238",
+        "android_client_info": {
+          "package_name": "com.example.hospitalpatient"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMCxPi2O9-f7lTTeM8MXLVvr7eW5kO1RA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

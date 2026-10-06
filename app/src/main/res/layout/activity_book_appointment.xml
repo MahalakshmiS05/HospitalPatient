@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <!-- PAGE TITLE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BOOK APPOINTMENT"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="25dp"/>
+
+
+        <!-- DOCTOR NAME -->
+
+        <TextView
+            android:id="@+id/tvDoctorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor Name"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+
+        <!-- SPECIALIZATION -->
+
+        <TextView
+            android:id="@+id/tvSpecialization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Specialization"
+            android:textSize="17sp"
+            android:layout_marginBottom="30dp"/>
+
+
+        <!-- AVAILABLE DATES TITLE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AVAILABLE DATES"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+
+        <!-- DATES WILL APPEAR HERE -->
+
+        <LinearLayout
+            android:id="@+id/dateContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="25dp"/>
+
+
+        <!-- AVAILABLE TIMINGS TITLE -->
+
+        <TextView
+            android:id="@+id/tvTimingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AVAILABLE TIMINGS"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginBottom="12dp"/>
+
+
+        <!-- TIMINGS WILL APPEAR HERE -->
+
+        <LinearLayout
+            android:id="@+id/slotContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="25dp"/>
+
+
+        <!-- BOOK BUTTON -->
+
+        <Button
+            android:id="@+id/btnBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BOOK APPOINTMENT"
+            android:enabled="false"/>
+
+    </LinearLayout>
+
+</ScrollView>
